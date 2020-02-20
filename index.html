@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="calc-display" disabled>
+        <div class="calc-body">
+            <div class="calc-button-col">
+                <div class="calc-button" onclick="input('7');">
+                    <p class="calc-button-text">7</p>
+                </div>
+                <div class="calc-button" onclick="input('4');">
+                    <p class="calc-button-text">4</p>
+                </div>
+                <div class="calc-button" onclick="input('1');">
+                    <p class="calc-button-text">1</p>
+                </div>
+                <div class="calc-button" onclick="input('0');">
+                    <p class="calc-button-text">0</p>
+                </div>
+            </div>
+            <div class="calc-button-col">
+                <div class="calc-button" onclick="input('8');">
+                    <p class="calc-button-text">8</p>
+                </div>
+                <div class="calc-button" onclick="input('5');">
+                    <p class="calc-button-text">5</p>
+                </div>
+                <div class="calc-button" onclick="input('2');">
+                    <p class="calc-button-text">2</p>
+                </div>
+                <div class="calc-button" onclick="input('.');">
+                    <p class="calc-button-text">.</p>
+                </div>
+            </div>
+            <div class="calc-button-col">
+                <div class="calc-button" onclick="input('9');">
+                    <p class="calc-button-text">9</p>
+                </div>
+                <div class="calc-button" onclick="input('6');">
+                    <p class="calc-button-text">6</p>
+                </div>
+                <div class="calc-button" onclick="input('3');">
+                    <p class="calc-button-text">3</p>
+                </div>
+                <div class="calc-button" onclick="calculate();">
+                    <p class="calc-button-text">=</p>
+                </div>
+            </div>
+            <div class="calc-button-col">
+                <div class="calc-button" onclick="backspace();">
+                    <p class="calc-button-text">&#8592;</p>
+                </div>
+                <div class="calc-button" onclick="input('÷');">
+                    <p class="calc-button-text">&#247;</p>
+                </div>
+                <div class="calc-button" onclick="input('×');">
+                    <p class="calc-button-text">&#215;</p>
+                </div>
+                <div class="calc-button" onclick="input('−');">
+                    <p class="calc-button-text">&#8722;</p>
+                </div>
+                <div class="calc-button" onclick="input('+');">
+                    <p class="calc-button-text">&#43;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
